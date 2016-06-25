@@ -1,7 +1,7 @@
 {
   "name": "server",
   "scripts": {
-    "start": "nodemon bin/www"
+    "start": "nodemon build/bin/www"
   },
   "version": "0.0.0",
   "description": "",
