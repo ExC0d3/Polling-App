@@ -1,6 +1,7 @@
 # Node Modules
 
 server/node_modules
+client/node_modules
 
 # Build folder
 
@@ -9,3 +10,7 @@ server/build
 # TS Cache
 
 server/.tscache
+
+# Logs
+
+*.log
