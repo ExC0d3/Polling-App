@@ -14,7 +14,7 @@ module.exports = function(grunt) {
         },
         copy:{
             main: {
-                src: ['public'],
+                src: ['public/**','views/**'],
                 expand:'true',
                 dest:'build'
             }
