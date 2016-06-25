@@ -1,0 +1,8 @@
+# Node Modules
+
+server/node_modules
+
+# Build folder
+
+server/build
+
