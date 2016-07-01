@@ -1,8 +1,10 @@
 import {Component} from '@angular/core';
+import {FormComponent} from './form.component';
 
 @Component({
 	selector:'app',
-	template:`<h1>Hola</h1>`
+	templateUrl:'Components/Templates/app.html',
+	directives:[FormComponent]
 })
 
 export class AppComponent {
