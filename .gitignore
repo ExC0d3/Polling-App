@@ -4,7 +4,9 @@ server/node_modules
 
 # No need to push components folder typescript files which are in build directory
 
-build/Components/*.ts 
+build/Components/*.ts
+build/Components/*.js
+build/Components/*.js.map 
 
 # TS Cache
 
