@@ -2,9 +2,6 @@
 
 server/node_modules
 
-# Build folder
-
-server/build
 
 # TS Cache
 

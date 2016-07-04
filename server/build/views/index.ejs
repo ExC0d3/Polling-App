@@ -1,0 +1,27 @@
+<html>
+    <head lang="en">
+        <title>Lets Poll</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- 1. Load libraries -->
+        <link rel="stylesheet" type="text/css" href="static/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script src="static/shim.min.js"></script>
+        <script src="static/zone.js"></script>
+        <script src="static/Reflect.js"></script>
+        <script src="static/system.src.js"></script>
+        <!-- 2. Configure SystemJS -->
+        <script src="javascripts/system.config.js"></script>
+        <script>
+        System.import('main.js').catch(function(err){ console.error(err); });
+        </script>
+        <script src="javascripts/jquery-2.1.3.min.js"></script>
+        <script src="static/dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+        <app>Loading...</app>
+    </div>
+</body>
+</html>
