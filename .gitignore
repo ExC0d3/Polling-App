@@ -2,6 +2,9 @@
 
 server/node_modules
 
+# No need to push components folder typescript files which are in build directory
+
+build/Components/*.ts 
 
 # TS Cache
 
